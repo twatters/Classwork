@@ -1,0 +1,35 @@
+.paragraph {
+	display: inline-block;
+}
+.container {
+	position: relative;
+	background-color: blue;
+	height: 200px;
+}
+.red {
+	background-color: red;
+	border: 2px solid white;
+	height: 150px;
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	left: 64px;
+}
+.green {
+	background-color: green;
+	border: 2px solid white;
+	height: 150px;
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	left: 300px;
+}
+.purple {
+	background-color: purple;
+	border: 2px solid white;
+	height: 150px;
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	left: 648px;
+}
