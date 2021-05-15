@@ -1,0 +1,19 @@
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  background-color: orange;
+  color: white;
+}
+.flex {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
+#column {
+  background-color: #E6F5FF;
+  flex-direction: column;
+}
+#row {
+  background-color: #FFF7DE;
+  flex-direction: row;
+}

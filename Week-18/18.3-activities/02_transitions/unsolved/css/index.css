@@ -1,0 +1,39 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  font-family: helvetica, arial, sans-serif;
+  color: white;
+  grid-template-areas:
+  "hover"
+  "disabled"
+  ;
+  height: 500px;
+}
+.hoverMe {
+  grid-area: hover;
+  background-color: red;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  transition: 0.2s ease;
+}
+/* active state */
+.hoverMe:hover {
+  background-color: white;
+  border-radius: 75px;
+  font-size: 16pt;
+  width: 250px;
+  color: black;
+  font-weight: bold;
+  box-shadow: 5px 5px #888888;
+}
+.hoverMe:active {
+  background-color: black;
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+}
