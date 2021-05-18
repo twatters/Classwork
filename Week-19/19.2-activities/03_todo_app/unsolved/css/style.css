@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto", helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #00b3f9;
+}
+h1 {
+  margin: 5px;
+  margin-top: 50px;
+  color: white;
+}
+p {
+  margin: 5px;
+  color: white;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  flex-direction:column
+}
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  width: 100%;
+  max-width: 500px;
+}
+#todoItem {
+  width: 96%;
+  padding: 2%;
+  font-size: 16px;
+  border-radius: 3px;
+}
+#enter {
+  padding: 2%;
+  background-color: #ff9100;
+  color: white;
+  border-radius: 3px;
+  width: 10%;
+  border: none;
+}
+.fas {
+  font-size: 16px;
+}
+#todoList {
+  width: 100%;
+  max-width: 500px;
+}
+.task {
+  display: flex;
+  padding: 10px;
+  margin: 15px 0px;
+  cursor: pointer;
+  transition: all 0.75s ease;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+.x {
+  margin-left: auto;
+  cursor: pointer;
+  margin-top: 3px;
+}
+.done {
+  color: #38912f;
+  border: 2px solid #38912f;
+  background: #d3f4d0;
+  font-weight: 700;
+}
