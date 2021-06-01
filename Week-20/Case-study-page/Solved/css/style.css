@@ -1,0 +1,265 @@
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+#hero {
+    background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 75vh;
+}
+
+.nav-link.active {
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white !important;
+
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+    padding:5%;
+}
+nav{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav .hamburger {
+    width:180px ;
+    text-align: right;
+}
+
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60%;
+
+}
+
+.jumbotron p {
+    text-align: center;
+    color: white;
+
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: 800;
+
+}
+
+
+.jumbotron h1 span {
+  
+    font-weight: 300;
+
+}
+
+.jumbotron .my-4 {
+    background-color: white;
+}
+
+/* adventure section */
+
+
+
+
+#adventure {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#adventure h2 {
+ text-align:center;
+ font-size:38px;
+ margin-bottom:100px;
+
+}
+
+
+#adventure .adventure-card {
+background-image: url("../images/adventure-card.png");
+background-size:cover ;
+height:565px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:20px;
+}
+
+.adventure-card .card-items {
+    margin-left:40px;
+    margin-right:60px;
+    color:white;
+
+}
+
+ .btn-primary {
+    background-color:#ff9900;
+    border-color: #ff9900;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color:#c47703;
+    border-color: #c47703;
+}
+
+.adventure-card .card-items .card-icon {
+    width:75%;
+
+}
+
+
+ h2 .yellow {
+    color:#ff9900;
+    font-size: 60%;
+    display: block;
+    font-weight:normal;
+}
+h4 {
+    color:white;
+}
+
+/* Location Section */
+
+#locations {
+    padding:200px 0px 100px;
+    background-image:url("../images/hollywood.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#locations .location-card {
+
+    background-size: 100%;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-color: #edeaea;
+    }
+
+.yosemite {
+        background-image: url(../images/yosemite-background.png);  
+}
+
+.joshua {
+    background-image: url(../images/joshua-background.png);  
+}
+.sanfran {
+    background-image: url(../images/sf-background.png);  
+}
+
+
+
+#locations .location-card .card-items {
+    background-color: white;
+    margin: 0px 30px 50px 30px;
+    padding:20px;
+    
+}       
+
+
+.location-item .card-items h3 {
+
+    font-size:20px;
+    width:45%;
+    
+    
+}
+
+.location-item .card-items .heading {
+    display:flex;
+    justify-content: space-between;
+    }
+
+
+ /* Mailing List     */
+
+#subscribe {
+
+    background-image: url("../images/sf-bridge.png");
+
+    color:white;
+    text-align: center;
+    background-size: cover;
+}
+
+#subscribe h2 {
+    margin-bottom:30px;
+
+}
+
+#subscribe p{
+    margin-bottom:30px;
+
+}
+
+#subscribe .form-container {
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+
+}
+
+#subscribe form {
+    display: flex;
+    justify-content: center;
+}
+#subscribe input {
+    height:50px;
+    border-radius: 0;
+    width:60%;
+    margin-right:20px !important;
+  
+
+
+}
+
+
+
+
+
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;padding:30px;
+
+    
+    
+}
+
+
+footer ul li a {
+    color:white;
+    text-decoration:none;
+    
+}
+
+.back-top {
+
+    padding:30px;
+}
+
+.back-top  img {
+    transform: rotate(180deg);
+
+}

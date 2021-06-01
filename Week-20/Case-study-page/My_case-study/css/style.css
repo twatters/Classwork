@@ -1,0 +1,55 @@
+
+body {
+
+}
+h1 {
+	font-family: 'Playfair Display 700', serif;
+	font-size: 72pt;
+	color:  black;
+}
+h5 {
+	font-family: '700', sans-serif;
+	font-size: 36pt;
+	color: black;
+}
+
+.nav-item {
+	font-family: 'Raleway 1,300', sans-serif;
+	color: black;
+}
+
+.jumbotron {
+	outline: 1px solid red;
+	background-image: url('../images/hero.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.card-img-top {
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 750px;
+	align-items: center;
+	justify-content: center;
+	display: flex;	
+}
+.card-body {
+	width: 750px;
+
+}
+
+/* font families */
+
+h1 h2 h3 {
+	font-family: 'Playfair Display', serif;
+}
+h4 h5 h6 {
+	font-family: 'Raleway', sans-serif;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+}
