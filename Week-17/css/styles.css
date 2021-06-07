@@ -1,0 +1,135 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.header {
+	height: 250px;
+	max-height: 500px;
+	background-image: url(images/upsBackground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#pageTopic {
+   text-align: center;
+   font-size: 14px;
+   font-weight: 900;
+}
+.colorContainer {	
+	display: inline-block;
+	margin: 15px;
+}
+.swatch {
+height: 200px;
+width: 170px;
+border: 1px solid black;
+}
+.hexCode {
+	padding: 15px;
+	text-align: center;
+	border: 1px solid black;
+	border-top: none;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.type_container {
+	display: inline-block;
+	margin: 20px;
+}
+.large {
+	font-size: 66px;
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+.light {
+	font-weight: 100;
+}
+.regular {
+	font-weight: 700;
+}
+.bold {
+	font-weight: 800;
+}
+.typography h1 {
+	font-size: 50px;
+	font-weight: 800;
+}
+.typography h2 {
+	font-size: 42px;
+	font-weight: 700;
+}
+.typography h3 {
+	font-size: 34px;
+	font-weight: 700;
+}
+.typography h4 {
+	font-size: 26px;
+}
+.button {
+	display: inline-block;
+	padding: 15px;
+	margin: 15px;
+	width: 150px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
+.darkBlue {
+	background-color: #333366;
+}
+.darkGrey {
+	background-color: #545454;
+}
+.lightGrey {
+	background-color: #E3E3E3;
+}
+.white {
+	background-color: #FFFFFF;
+}
+.lightBlue {
+	background-color: #12A0F6
+}
+.red {
+	background-color: #F84848;
+}
+.orange {
+	background-color: #FC7705;
+}
+.lightBlue {
+	background-color: #13A0F6;
+}
+.lightGreen {
+	background-color: #8ABE48;
+}
+.primary {
+	background-color: #2B459A;
+}
+.success {
+	background-color: #8ABE48;
+}
+.danger {
+	background-color: #F84848;
+}
+.warning {
+	background-color: #FC7705;
+}
+.info {
+	background-color: #0099FA;
+}
+.primaryActive {
+	background-color: #3A66B7;
+}
+.successActive {
+	background-color: #668C35;
+}
+.dangerActive {
+	background-color: #AD4848;
+}
+.warningActive {
+	background-color: #BA7A43;
+}
+.infoActive {
+	background-color: #4386BA;
+}
+.sectionHead {
+	border-bottom: 8px solid #DDDDDD;
+}
